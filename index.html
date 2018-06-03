@@ -72,17 +72,15 @@
 			
 			<!--МОДАЛКА-->
 			<div class="modal-container">
-  <input id="modal-toggle" type="checkbox">
-  <label class="modal-btn" for="modal-toggle">СКАЧАТЬ</label> 
-  <label class="modal-backdrop" for="modal-toggle"></label>
-  <div class="modal-content">
-    <label class="modal-close" for="modal-toggle">&#x2715;</label>
-		<p>	  <a href="http://rebrand.ly/mp3_direct">Прямая ссылка</a><br>
-			  <a href="http://rebrand.ly/mp3_gett">Gett</a><br>
-			  <a href="http://rebrand.ly/mp3_dropbox">Dropbox</a><br>
-			  <a href="http://rebrand.ly/mp3_gdrive">Google Диск</a><br>
-			  <a href="http://rebrand.ly/mp3_mailru">Mail.ru облако</a><br>
-</p> 
+				<div class="btn-group">
+  <button type="button" data-toggle="dropdown" class="modal-btn">Кнопка <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="http://rebrand.ly/mp3_direct">Прямая ссылка</a></li>
+	<li><a href="http://rebrand.ly/mp3_gett">Gett</a></li>
+	<li><a href="http://rebrand.ly/mp3_dropbox">Dropbox</a></li>
+	<li><a href="http://rebrand.ly/mp3_gdrive">Google Диск</a></li>
+	<li><a href="http://rebrand.ly/mp3_mailru">Mail.ru облако</a></li>
+   </ul>
   </div>          
 </div>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
